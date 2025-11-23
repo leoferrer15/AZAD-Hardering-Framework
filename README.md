@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🛡️ AZAD v1.1
+# 🛡️ AZAD v1.1 (Beta Release)
 
 **Windows Contextual Hardening & Exposure Auditor**
 

@@ -123,7 +123,7 @@ Home PC (no management):                      78/100 🔴
 git clone https://github.com/leoferrer15/AZAD
 git clone 
 cd azad
-python azad.py
+python azad_v1.1.py
 ```
 
 **Sample Output:**

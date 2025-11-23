@@ -166,10 +166,10 @@ python azad_v1.1.py
 
 ## 🗺️ Roadmap
 
-**v2.1** (Q1 2025): PDF export, unified reports, 25+ EDR detections  
-**v2.2** (Q2 2025): CIS/MSFT baselines, drift detection  
-**v3.0** (Q3 2025): Auto-hardening, rollback, "Get to Score 25" mode  
-**v4.0** (2026): Fleet dashboard, API, remote scanning
+**v2.1** (Q4 2025): PDF export, unified reports, 25+ EDR detections  
+**v2.2** (Q1 2026): CIS/MSFT baselines, drift detection  
+**v3.0** (Q2 2026): Auto-hardening, rollback, "Get to Score 25" mode  
+**v4.0** (Q3 2026): Fleet dashboard, API, remote scanning
 
 [Full roadmap →](https://github.com/leoferrer15/azad/wiki/Roadmap)
 

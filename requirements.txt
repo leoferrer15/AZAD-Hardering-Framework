@@ -1,0 +1,77 @@
+# ============================================================================
+# AZAD v1.1 - Python Dependencies
+# Windows Endpoint Hardening & Exposure Auditor
+# ============================================================================
+
+# ============================================================================
+# CORE DEPENDENCIES
+# ============================================================================
+
+# pywin32 - Windows API access (registry, services, processes)
+# Required for: LSASS PPL detection, registry queries, domain info, admin enumeration
+# Version: 305+ recommended (includes fixes for Windows 11)
+pywin32>=305; sys_platform == 'win32'
+
+# ============================================================================
+# OPTIONAL DEPENDENCIES (Future enhancements)
+# ============================================================================
+
+# Uncomment these if you want to extend AZAD functionality:
+
+# requests>=2.31.0          # For future API integrations (SIEM, webhooks)
+# colorama>=0.4.6           # For colored terminal output
+# python-dotenv>=1.0.0      # For environment variable management
+# pyyaml>=6.0               # For YAML config file support
+# jinja2>=3.1.2             # For custom report templates
+# rich>=13.5.0              # For enhanced terminal UI
+
+# ============================================================================
+# DEVELOPMENT DEPENDENCIES (Only for contributors)
+# ============================================================================
+
+# Uncomment these if you're contributing to AZAD:
+
+# pytest>=7.4.0             # Unit testing
+# pytest-cov>=4.1.0         # Code coverage
+# black>=23.7.0             # Code formatter
+# flake8>=6.1.0             # Linting
+# mypy>=1.5.0               # Type checking
+# pylint>=2.17.0            # Static analysis
+
+# ============================================================================
+# NOTES
+# ============================================================================
+
+# 1. AZAD is designed to be LIGHTWEIGHT with minimal dependencies
+# 2. Only pywin32 is strictly required for full functionality
+# 3. AZAD will run with limited checks if pywin32 is not available
+# 4. Installation: pip install -r requirements.txt
+# 5. Python 3.8+ required
+
+# ============================================================================
+# INSTALLATION INSTRUCTIONS
+# ============================================================================
+
+# Standard installation:
+#   pip install -r requirements.txt
+
+# With optional features:
+#   pip install -r requirements.txt requests colorama
+
+# Development setup:
+#   pip install -r requirements.txt pytest black flake8
+
+# Upgrade existing packages:
+#   pip install --upgrade -r requirements.txt
+
+# ============================================================================
+# COMPATIBILITY
+# ============================================================================
+
+# Tested on:
+# - Python 3.8, 3.9, 3.10, 3.11, 3.12
+# - Windows 10 (21H2, 22H2)
+# - Windows 11 (21H2, 22H2, 23H2)
+# - Windows Server 2016, 2019, 2022
+
+# ============================================================================

@@ -224,7 +224,7 @@ We welcome security audits! If you've reviewed AZAD:
 
 ---
 
-## 🧪 Security Testing
+## 🧪 Security Testing.
 
 ### **Testing Scope:**
 

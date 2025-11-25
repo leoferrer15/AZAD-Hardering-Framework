@@ -28,7 +28,7 @@ Public disclosure of security issues puts all users at risk. Instead:
 
 ### **Preferred Contact Method:**
 
-📧 **Email:** [TU_EMAIL_AQUI@example.com]
+📧 **Email:** [azad.endpoint@gmail.com]
 
 **Subject Line Format:** `[SECURITY] AZAD - Brief Description`
 
@@ -256,7 +256,7 @@ If you're security testing AZAD, here are areas of interest:
 
 ---
 
-## 📚 Additional Resources
+## 📚 Additional Resources.
 
 - **Documentation:** [docs/](docs/)
 - **FAQ:** [docs/FAQ.md](docs/FAQ.md)
